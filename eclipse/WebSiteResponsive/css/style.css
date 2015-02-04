@@ -13,7 +13,7 @@ img {
     border: 1px;
     padding: 1.25em;
     margin-bottom: .5em;
-    width: 20%;
+    width: 30%;
 
 }
 .rightColumn{
@@ -25,14 +25,14 @@ img {
 #box{
     border: black 20px;
     padding: 1.25em;
-    width: 20%;
+    width: 60%;
     height: 20%;
     background: lavenderblush;
 }
 #box2{
     border: black 2px;
     padding: 1.25em;
-    width: 15em;
+    width: 40em;
     height: 20%;
     background: lavender;
 }
@@ -45,7 +45,7 @@ img {
 @media screen and (min-width:0) {         /* Greater than 0 applied what there are inside of @media block */
 
     .leftColumn{margin-right: 0.5em}
-    .rightColumn{  position: absolute;top: 0; right: 0; width: 60%}    /*fix the right column in 18.75em*/
+    .rightColumn{  position: absolute;top: 0; right: 0; width: 60%}
 
 
 

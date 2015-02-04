@@ -1,52 +1,67 @@
-
 img {
     max-width: 100%;
     height: auto;
-    width: auto;
+    width: auto\9;
 }
-.columnContainer{
+
+.columnContainer {
     position: relative;
     margin: .5em;
 }
 
-.leftColumn{
-    border: 1px;
+.leftColumn {
+    border:  1px;
     padding: 1.25em;
     margin-bottom: .5em;
     width: 30%;
 
 }
-.rightColumn{
+
+.rightColumn {
     border: 1px;
     padding: 1.25em;
     margin-bottom: .5em;
+
+
 }
 
-#box{
-    border: black 20px;
+#box {
+
     padding: 1.25em;
     width: 60%;
     height: 20%;
     background: lavenderblush;
 }
-#box2{
-    border: black 2px;
+
+#box2 {
+
     padding: 1.25em;
     width: 40em;
     height: 20%;
     background: lavender;
 }
-#footPage{
+
+#footPage {
     bottom: 0;
     position: absolute;
 }
 
 
-@media screen and (min-width:0) {         /* Greater than 0 applied what there are inside of @media block */
+@media screen and (min-width: 6em) {
+    /* Greater than 0 applied what there are inside of @media block */
 
-    .leftColumn{margin-right: 0.5em}
-    .rightColumn{  position: absolute;top: 0; right: 0; width: 60%}
+    .leftColumn {
+        margin-right: 5em;
+
+    }
+
+    .rightColumn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60%;
 
 
+    }
 
 }
